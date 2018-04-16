@@ -22,4 +22,9 @@ export class FirstPage {
     console.log('ionViewDidLoad FirstPage');
   }
 
+  goBack() {
+    this.navCtrl.pop();
+  }
+
+
 }
